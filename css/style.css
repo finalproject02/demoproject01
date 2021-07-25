@@ -138,11 +138,11 @@
 
 /* Resultform */
 
-.contact-form .inputBox{
+.result-form .inputBox{
     position: relative;
     margin-top: 10px;
 }
-.contact-form .inputBox input{
+.result-form .inputBox input{
     width: 100%;
     padding: 5px 0;
     font-size: 16px;
@@ -155,7 +155,7 @@
 
 }
 
-.contact-form .inputBox span{
+.result-form .inputBox span{
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -167,13 +167,13 @@
     color: #666;
 }
 
-.contact-form .inputBox input:focus ~ span,
-.contact-form .inputBox input:valid ~ span{
+.result-form .inputBox input:focus ~ span,
+.result-form .inputBox input:valid ~ span{
     color: #8bc94d;
     font-size: 15px;
     transform:translateY(-20px)
 }
-.contact-form .inputBox input[type = "submit"]{
+.result-form .inputBox input[type = "submit"]{
     width: 100px;
     background: #00bcd4;
     color: #fff;
